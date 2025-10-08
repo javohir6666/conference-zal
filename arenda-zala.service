@@ -1,0 +1,30 @@
+[Unit]
+Description=Arenda Zala Conference Hall Booking System
+Documentation=https://github.com/username/conference-zal
+After=network.target
+
+[Service]
+Type=simple
+User=nodejs
+WorkingDirectory=/var/www/arenda-zala
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+RestartSec=10
+Environment=NODE_ENV=production
+Environment=PORT=3000
+EnvironmentFile=/var/www/arenda-zala/.env
+
+# Security settings
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/www/arenda-zala
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=arenda-zala
+
+[Install]
+WantedBy=multi-user.target

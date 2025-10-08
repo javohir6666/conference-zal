@@ -1,0 +1,40 @@
+{
+  "name": "arenda-zala",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "node server.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run api\"",
+    "build": "vite-ssg build",
+    "start": "node server.js",
+    "build:full": "npm run build && npm start",
+    "preview": "vite preview --port 5173",
+    "optimize-images": "tsx scripts/optimize-images.ts",
+    "rename-files": "tsx scripts/rename-files.ts"
+  },
+  "dependencies": {
+    "@iconify/vue": "^4.1.2",
+    "@unhead/vue": "^1.11.15",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "vite-ssg": "^0.23.8",
+    "vue": "^3.5.12",
+    "vue-i18n": "^9.14.0",
+    "vue-router": "^4.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.18.8",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "concurrently": "^9.2.1",
+    "sharp": "^0.34.4",
+    "tsx": "^4.20.6",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

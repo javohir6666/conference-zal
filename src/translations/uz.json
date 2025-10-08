@@ -1,0 +1,87 @@
+{
+  "brand": "Arenda-Zala.uz",
+  "nav": {"halls":"Zallar","pricing":"Narxlar","gallery":"Galereya","contact":"Aloqa","faq":"FAQ"},
+  "hero": {"title":"Konferensiya zallari ijarasi","subtitle":"500/50/20 o'rinli zamonaviy zallar. Tez ariza qoldiring.","cta":"Ariza qoldirish"},
+  "halls": {"big":"Katta zal — 500 o'rin","medium":"O'rta zal — 50 o'rin","small":"Uchrashuv xonasi — 20 o'rin"},
+  "features": {"equipment":"Jihozlar","layouts":"Joylashish variantlari","location":"Qulay joylashuv","support":"Texnik yordam"},
+  "chips": {"projector":"Projektor/LED","capacity":"500/50/20","wifi":"Wi‑Fi","parking":"Parkovka","coffee":"Coffee‑break"},
+  "form": {
+    "title":"Ariza qoldiring",
+    "name":"To'liq ism",
+    "phone":"Telefon",
+    "email":"Email",
+    "eventType":"Tadbir turi",
+    "date":"Sana",
+    "timeFrom":"Boshlanish vaqti",
+    "timeTo":"Tugash vaqti",
+    "guests":"Kishi soni",
+    "hall":"Zal",
+    "layout":"Joylashish",
+    "equipment":"Kerakli jihozlar",
+    "catering":"Coffee-break / Catering",
+    "budget":"Byudjet",
+    "message":"Izoh",
+    "consent":"Ma'lumotlarni qayta ishlashga roziman",
+    "submit":"Yuborish",
+    "success":"✅ Arizangiz muvaffaqiyatli yuborildi! Tez orada (15 daqiqa ichida) operator siz bilan bog'lanadi.",
+    "error":"❌ Arizani yuborishda xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring yoki to'g'ridan-to'g'ri qo'ng'iroq qiling: +998 99 408 4408"
+  },
+  "chat": {
+    "title": "Arenda‑Zala — Chat",
+    "greet": "Salom! Qanday yordam bera olay? Variantlar: Narxlar, Manzil, Jihozlar, Ariza.",
+    "fastContact": "Tez aloqa:",
+    "placeholder": "Xabar yozing...",
+    "quickUz": ["Narxlar","Manzil","Jihozlar","Ariza","Kontakt","Ish vaqti"],
+    "quickRu": ["Цены","Адрес","Оборудование","Заявка","Контакт","Время работы"],
+    "operator": "Operator bilan bog'lash",
+    "operatorCall": "Qo'ng'iroq",
+    "operatorTg": "Telegram",
+    "leadStart": "Keling, arizani rasmiylashtiramiz. Iltimos, to'liq ismingizni yozing.",
+    "leadPhone": "Telefon raqamingiz? (+998..)",
+    "leadDate": "Qaysi sana kerak? (YYYY-MM-DD)",
+    "leadGuests": "Kishi soni?",
+    "leadHall": "Qaysi zal? (500/50/20 yoki aniq emas)",
+    "leadOk": "Arizangiz qabul qilindi. Tez orada bog'lanamiz!",
+    "leadErr": "Xatolik yuz berdi. Keyinroq urinib ko'ring.",
+    "cancel": "Bekor qilish"
+  },
+  "gallery": {
+    "title": "Galereya",
+    "description": "O'tkazilgan tadbirlar va zal interyerlari rasmlar to'plamini ko'ring"
+  },
+  "home": {
+    "more":"Batafsil",
+    "cards": {
+      "500": {"title":"500 o'rin — Katta zal","desc":"Katta konferensiya, forum va taqdimotlar uchun."},
+      "50": {"title":"50 o'rin — O'rta zal","desc":"Trening, seminar va yig'ilishlar uchun."},
+      "20": {"title":"20 o'rin — Uchrashuv","desc":"Muzokara va kichik uchrashuvlar uchun."}
+    },
+    "features": {
+      "location": {"title":"Qulay joylashuv","desc":"Markazga yaqin, parkovka va jamoat transporti."},
+      "support": {"title":"Texnik yordam","desc":"Tadbir davomida tajribali texnik jamoa."},
+      "flex": {"title":"Moslashuvchan vaqt","desc":"Soatbay yoki kunlik band qilish imkoniyati."}
+    }
+  },
+  "hall": {
+    "500": {"title":"Katta zal — 500 o'rin","desc":"Yirik konferensiya va forumlar uchun mo'ljallangan. Projektor/LED, audio tizim, sahna, mikrofonlar.","capacity":"Sig'im: 500","layouts":"Layout: teatr, sinf, banket","extras":"Qo'shimcha: yozib olish, tarjima kabinasi (ixtiyoriy)"},
+    "50": {"title":"O'rta zal — 50 o'rin","desc":"Trening va seminarlar uchun qulay. Projektor/ekran, audio, mikrofonlar.","capacity":"Sig'im: 50","layouts":"Layout: teatr, sinf, U-shape"},
+    "20": {"title":"Uchrashuv xonasi — 20 o'rin","desc":"Muzokara va kichik uchrashuvlar uchun. Monitor/TV, konferens aloqa, whiteboard.","capacity":"Sig'im: 20","layouts":"Layout: boardroom, U-shape"}
+  },
+  "pricing": {"title":"Narxlar","h500":"500 o'rin","h500l1":"1–9 soat — 3 mln/soat (tasdiqlang)","h500l2":"10+ soat — kelishuv","h50":"50 o'rin","h50l1":"1–4 soat — 500 ming/soat","h50l2":"5+ soat — 400 ming/soat","h20":"20 o'rin","h20l1":"1–3 soat — 250 ming/soat","h20l2":"4+ soat — 200 ming/soat","note":"Eslatma: PDF’dagi narxlarni aniq tasdiqlang, so'ng ko'rsatkichlar yangilanadi."},
+  "contact": {"title":"Aloqa","phones":"Tel:","addressNote":"Manzil: (tasdiqlang)"},
+  "faq": {"title":"FAQ","q1":"Bandlikni qanday tasdiqlaysiz?","a1":"Ariza olgach, telefon orqali tasdiqlaymiz va shartlarni yuboramiz.","q2":"To'lov turlari?","a2":"Naqd/naqd emas. Oldindan to'lov talab qilinishi mumkin."},
+  "footer": {"about":"Konferensiya zallari ijarasi — 500/50/20 o'rin. Zamonaviy jihozlar va qulay joylashuv.","contact":"Aloqa","links":"Havolalar","hours":"Ish vaqti"},
+  "testimonials": {"title":"Mijozlar fikri"},
+  "topbar": {"address":"Toshkent, markazga yaqin hudud"},
+  "cta": {"apply":"Ariza"}
+  ,
+  "quick": {"title":"Tez aloqa"}
+  ,
+  "rooms": {
+    "types": {
+      "1":"Toshkent markazida konferens-zal",
+      "2":"Prezentatsiya zali",
+      "3":"Jihozlangan kabinetlar"
+    }
+  }
+}
