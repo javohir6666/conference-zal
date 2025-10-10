@@ -50,7 +50,7 @@ export default defineComponent(() => {
       <section class="section container">
         <div class="grid-3">
           <div class="card reveal">
-            <div class="img-frame" style={{marginBottom:'12px',backgroundImage:`url('${env('VITE_CARD_IMG_500','https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop')}')`,backgroundSize:'cover',backgroundPosition:'center'}}></div>
+            <div class="img-frame" style={{marginBottom:'12px',backgroundImage:`url('${env('VITE_HALL500_IMG','https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop')}')`,backgroundSize:'cover',backgroundPosition:'center'}}></div>
             <h3 style={{margin:'8px 0'}}>{t('home.cards.500.title')}</h3>
             <p>{t('home.cards.500.desc')}</p>
             <RouterLink class="btn" to="/halls/500">
@@ -60,7 +60,7 @@ export default defineComponent(() => {
             </RouterLink>
           </div>
           <div class="card reveal">
-            <div class="img-frame" style={{marginBottom:'12px',backgroundImage:`url('${env('VITE_CARD_IMG_50','https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1200&auto=format&fit=crop')}')`,backgroundSize:'cover',backgroundPosition:'center'}}></div>
+            <div class="img-frame" style={{marginBottom:'12px',backgroundImage:`url('${env('VITE_HALL50_IMG','https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1200&auto=format&fit=crop')}')`,backgroundSize:'cover',backgroundPosition:'center'}}></div>
             <h3 style={{margin:'8px 0'}}>{t('home.cards.50.title')}</h3>
             <p>{t('home.cards.50.desc')}</p>
             <RouterLink class="btn" to="/halls/50">
@@ -70,7 +70,7 @@ export default defineComponent(() => {
             </RouterLink>
           </div>
           <div class="card reveal">
-            <div class="img-frame" style={{marginBottom:'12px',backgroundImage:`url('${env('VITE_CARD_IMG_20','https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop')}')`,backgroundSize:'cover',backgroundPosition:'center'}}></div>
+            <div class="img-frame" style={{marginBottom:'12px',backgroundImage:`url('${env('VITE_HALL20_IMG','https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop')}')`,backgroundSize:'cover',backgroundPosition:'center'}}></div>
             <h3 style={{margin:'8px 0'}}>{t('home.cards.20.title')}</h3>
             <p>{t('home.cards.20.desc')}</p>
             <RouterLink class="btn" to="/halls/20">
@@ -115,9 +115,9 @@ export default defineComponent(() => {
       {/* Quick contacts + partners + testimonials */}
       <QuickContacts />
 
-      <Partners />
+      {/* <Partners /> */}
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <section class="section container">
         <BookingForm />

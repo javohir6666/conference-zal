@@ -2,6 +2,7 @@ import { defineComponent, ref, onMounted, onBeforeUnmount, nextTick, computed, w
 import { RouterLink, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { Icon } from '@iconify/vue'
+import { env as envVar } from '@/lib/env'
 import { useRoute } from 'vue-router'
 import { onMounted as onMountedVue } from 'vue'
 
@@ -193,12 +194,12 @@ export default defineComponent(() => {
             <button class="lang" onClick={switchLang} aria-label="language">
               <Icon icon={langIcon.value} width="18" /> {langText.value}
             </button>
-            <RouterLink to="/contact" class="cta" style={{marginLeft:'8px'}}>
+            <a href={`tel:${envVar('VITE_PHONE_1','+998994084408')}`} class="cta" style={{marginLeft:'8px'}}>
               <span style={{display:'inline-flex',alignItems:'center',gap:'8px'}}>
                 <Icon icon="mdi:phone-outline" width="18" />
-                {t('cta.apply')}
+                {t('cta.call')}
               </span>
-            </RouterLink>
+            </a>
             <div class="nav-indicator" ref={indicator}></div>
           </div>
         </nav>

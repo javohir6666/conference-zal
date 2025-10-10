@@ -29,7 +29,7 @@ export default defineComponent(() => {
         </ul>
       </div>
     </div>
-    <p>{t('pricing.note')}</p>
+    {/* <p>{t('pricing.note')}</p> */}
   </div>
   )
 })

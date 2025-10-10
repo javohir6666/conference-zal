@@ -5,26 +5,22 @@ After=network.target
 
 [Service]
 Type=simple
-User=nodejs
-WorkingDirectory=/var/www/arenda-zala
+User=root
+WorkingDirectory=/var/www/conference-zal
 ExecStart=/usr/bin/node server.js
 Restart=on-failure
 RestartSec=10
 Environment=NODE_ENV=production
-Environment=PORT=3000
-EnvironmentFile=/var/www/arenda-zala/.env
-
-# Security settings
-NoNewPrivileges=yes
-PrivateTmp=yes
-ProtectSystem=strict
-ProtectHome=yes
-ReadWritePaths=/var/www/arenda-zala
+Environment=PORT=8027
+EnvironmentFile=/var/www/conference-zal/.env
 
 # Logging
 StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=arenda-zala
+
+# Security settings (without readonly for working directory)
+ReadWritePaths=/var/www/conference-zal
 
 [Install]
 WantedBy=multi-user.target
